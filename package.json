@@ -1,0 +1,30 @@
+{
+  "name": "is-up",
+  "version": "1.0.0",
+  "description": "Ping a website to check it is up",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mark Gandy",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^1.2.2",
+    "xo": "^0.18.1"
+  },
+  "xo": {
+    "space": true,
+    "rules": {
+      "quotes": 0,
+      "object-curly-spacing": 0
+    }
+  },
+  "dependencies": {
+    "micro": "^7.3.2",
+    "node-telegram-bot-api": "^0.27.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.0",
+    "rxjs": "^5.3.0"
+  }
+}
